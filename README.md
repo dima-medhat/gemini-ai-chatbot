@@ -54,8 +54,7 @@ The main objectives of this project are:
 | Google Gemini API | Generating AI responses             |
 | Google GenAI SDK  | Connecting Python with Gemini       |
 | python-dotenv     | Loading environment variables       |
-| Git               | Version control                     |
-| GitHub            | Project hosting and documentation   |
+
 
 ## Installation and Setup
 
