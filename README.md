@@ -158,7 +158,7 @@ gemini-ai-chatbot/
 
 ### Conversation Example
 
-![Gemini Chatbot Conversation](images/chatbot_conv1.png)
+![Gemini Chatbot Conversation](images/chatbot_conv(1).png)
 
 ### Multiple Conversations
 
