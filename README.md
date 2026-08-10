@@ -117,34 +117,58 @@ http://localhost:8501
 ## Project Structure
 
 ```text
-gemini-chatbot/
-│
-├── app.py
-├── requirements.txt
-├── .env
-├── .gitignore
+gemini-ai-chatbot/
 │
 ├── functions/
-│   ├── __init__.py
-│   ├── llm_service.py
-│   └── chat_manager.py
+│   ├── chat_manager.py
+│   └── llm_service.py
 │
 ├── images/
-│   ├── chatbot-home.png
-│   ├── conversation-example.png
+│   ├── chatbot_home_page.png
+│   ├── chatbot_conv1.png
+│   └── chatbot_conv2.png
 │
-└── README.md
+├── video/
+│   └── chatbot_demo.mp4
+│
+├── .gitignore
+├── app.py
+├── README.md
+├── requirements.txt
+└── test_model.py
 ```
 
 ### File Description
 
 - `app.py` – Main Streamlit application.
-- `llm_service.py` – Handles communication with the Gemini API.
-- `chat_manager.py` – Handles conversations and chat history.
+- `functions/llm_service.py` – Handles communication with the Gemini API.
+- `functions/chat_manager.py` – Manages conversations and chat history.
+- `test_model.py` – Used to test the Gemini model connection.
 - `requirements.txt` – Contains the required Python packages.
-- `.env` – Stores private environment variables such as the API key.
-- `.gitignore` – Prevents sensitive and unnecessary files from being uploaded to GitHub.
-- `images/` – Stores screenshots used in the README.
+- `.gitignore` – Prevents sensitive and unnecessary files from being uploaded.
+- `images/` – Contains application screenshots.
+- `video/` – Contains the application demo video.
+- `README.md` – Project documentation.
+
+## Screenshots
+
+### Home Page
+
+![Gemini Chatbot Home Page](images/chatbot_home_page.png)
+
+### Conversation Example
+
+![Gemini Chatbot Conversation](images/chatbot_conv1.png)
+
+### Multiple Conversations
+
+![Gemini Chatbot Chat History](images/chatbot_conv2.png) 
+
+## Demo Video
+
+A short demonstration of the Gemini AI Chatbot is available below:
+
+[▶ Watch the Chatbot Demo](video/chatbot_demo.mp4)
 
 ## Future Improvements
 
