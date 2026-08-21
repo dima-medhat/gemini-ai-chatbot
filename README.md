@@ -3,7 +3,7 @@
 A stateful conversational AI chatbot built with Python, Streamlit, and the Gemini API.
 
 ## 🚀 Live Demo
-👉 [Open the Live Demo](https://gemini-ai-chatbot-project.streamlit.app/))
+👉 [Open the Live Demo](https://gemini-ai-chatbot-project.streamlit.app/)
 
 
 ## 📑 Table of Contents
